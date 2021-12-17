@@ -20,14 +20,11 @@ With this article, I want to provide some simple — albeit opinionated �
 
 Personally, [I’ve been](https://www.linkedin.com/in/brice-luu-data-eng/) into data engineering for a few years now and have had the chance of setting up such stacks for a bunch of startups and scaleups over the past couple of years.
 
+---
 
 ### Step 1: set up a cloud data warehouse
-
-> “Where they are put in boxes, and they come out all the same.”
-
-![][1]
-`Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)` 
-
+“Where they are put in boxes, and they come out all the same.”
+![Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)][1]
 
 In order to decouple the scaling of your app’s transactional workloads from that of your analytics workload, the idea is to add a resource specifically tailored to the latter.
 
@@ -46,13 +43,11 @@ Snowflake:
 *   if none of the above really matters
 *   and your team has some — even very limited — experience with database administration: you’ll feel right at home here (e.g user management through DDL statements)
 
+---
 
 ### Step 2: extract & load into your warehouse
-
-> “Lock and load.”
-
-![][2]
-`Photo by [Bernd Dittrich](https://unsplash.com/@hdbernd?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
+“Lock and load.”
+![Photo by [Bernd Dittrich](https://unsplash.com/@hdbernd?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)][2]
 
 Now that you have a brand new and immaculate data warehouse, it’s time to start loading things in it.
 
@@ -70,13 +65,11 @@ Here, I’d highlight [Fivetran](https://fivetran.com/) — current EL(T) ma
 
 Or [Airbyte](https://airbyte.io/) as the latest but strongest upcoming contender. Especially if you’re comfortable hosting you’re own ingestion infrastructure: it’s open sourced and just a `docker-compose up` away.
 
+---
 
 ### Step 3: model, model, model
-
-> Also known as the ‘T’ in EL**T** (i.e “Transform”)
-
-![][3]
-`Photo by [SwapnIl Dwivedi](https://unsplash.com/@momentance?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
+Also known as the ‘T’ in EL**T** (i.e “Transform”)
+![Photo by [SwapnIl Dwivedi](https://unsplash.com/@momentance?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)][3]
 
 What you’ll need now is to get usable results — KPIs — from all of that data. Maybe merging data across different sources, aggregating it per user segment, and/or per day, week, month, quarter? Comparing that year over year, or over the previous period?
 
@@ -102,11 +95,8 @@ It allows anyone that speaks SQL to contribute to your shared data warehouse con
 
 
 ### Then, what’s next?
-
-> Give back!
-
-![][4]
-`Photo by [Damir Spanic](https://unsplash.com/@spanic?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
+Give back!
+![Photo by [Damir Spanic](https://unsplash.com/@spanic?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)][4]
 
 This one should actually go hand in hand with that previous step. Focusing on the actual use case(s) is what will align the data team to quickly bring strong value to the table.
 
@@ -125,8 +115,7 @@ I’ve held back on that one to highlight the fact that: there are quite a few t
 
 There you have it. You’re just a few steps away from data-enabled greatness! So start building ;-)
 
-![][5]
-`Photo by [Randy Fath](https://unsplash.com/@randyfath?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=hashnode&utm_medium=referral)`
+![Photo by [Randy Fath](https://unsplash.com/@randyfath?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=hashnode&utm_medium=referral)][5]
 
 [1]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571680778/XTeb9w0zX.jpeg
 [2]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571682459/gOjKL3u3J.jpeg
