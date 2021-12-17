@@ -25,8 +25,9 @@ Personally, [I’ve been](https://www.linkedin.com/in/brice-luu-data-eng/) into 
 
 > “Where they are put in boxes, and they come out all the same.”
 
-![*Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*][1]
-[1]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571680778/XTeb9w0zX.jpeg
+![][1]
+`Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)` 
+
 
 In order to decouple the scaling of your app’s transactional workloads from that of your analytics workload, the idea is to add a resource specifically tailored to the latter.
 
@@ -50,8 +51,8 @@ Snowflake:
 
 > “Lock and load.”
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1639571682459/gOjKL3u3J.jpeg)
-*Photo by [Bernd Dittrich](https://unsplash.com/@hdbernd?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*
+![][2]
+`Photo by [Bernd Dittrich](https://unsplash.com/@hdbernd?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
 
 Now that you have a brand new and immaculate data warehouse, it’s time to start loading things in it.
 
@@ -74,8 +75,8 @@ Or [Airbyte](https://airbyte.io/) as the latest but strongest upcoming contender
 
 > Also known as the ‘T’ in EL**T** (i.e “Transform”)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1639571684061/FunrXIG-B.jpeg)
-*Photo by [SwapnIl Dwivedi](https://unsplash.com/@momentance?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*
+![][3]
+`Photo by [SwapnIl Dwivedi](https://unsplash.com/@momentance?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
 
 What you’ll need now is to get usable results — KPIs — from all of that data. Maybe merging data across different sources, aggregating it per user segment, and/or per day, week, month, quarter? Comparing that year over year, or over the previous period?
 
@@ -104,8 +105,8 @@ It allows anyone that speaks SQL to contribute to your shared data warehouse con
 
 > Give back!
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1639571685661/-Uwi-1Tt7.jpeg)
-*Photo by [Damir Spanic](https://unsplash.com/@spanic?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*
+![][4]
+`Photo by [Damir Spanic](https://unsplash.com/@spanic?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)`
 
 This one should actually go hand in hand with that previous step. Focusing on the actual use case(s) is what will align the data team to quickly bring strong value to the table.
 
@@ -124,5 +125,11 @@ I’ve held back on that one to highlight the fact that: there are quite a few t
 
 There you have it. You’re just a few steps away from data-enabled greatness! So start building ;-)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1639571687153/aEHIowJsl.jpeg)
-*Photo by [Randy Fath](https://unsplash.com/@randyfath?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=hashnode&utm_medium=referral)*
+![][5]
+`Photo by [Randy Fath](https://unsplash.com/@randyfath?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=hashnode&utm_medium=referral)`
+
+[1]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571680778/XTeb9w0zX.jpeg
+[2]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571682459/gOjKL3u3J.jpeg
+[3]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571684061/FunrXIG-B.jpeg
+[4]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571685661/-Uwi-1Tt7.jpeg
+[5]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571687153/aEHIowJsl.jpeg
