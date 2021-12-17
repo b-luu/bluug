@@ -25,7 +25,8 @@ Personally, [I’ve been](https://www.linkedin.com/in/brice-luu-data-eng/) into 
 
 > “Where they are put in boxes, and they come out all the same.”
 
-![*Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*](https://cdn.hashnode.com/res/hashnode/image/upload/v1639571680778/XTeb9w0zX.jpeg "Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)")
+![*Photo by [Sikai Gu](https://unsplash.com/@gentle_kay?utm_source=hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=hashnode&utm_medium=referral)*][1]
+[1]: https://cdn.hashnode.com/res/hashnode/image/upload/v1639571680778/XTeb9w0zX.jpeg
 
 In order to decouple the scaling of your app’s transactional workloads from that of your analytics workload, the idea is to add a resource specifically tailored to the latter.
 
